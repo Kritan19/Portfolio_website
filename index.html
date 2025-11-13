@@ -1,69 +1,323 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KRITAN NEPAL</title>
+    <title>Kritan Nepal - Full Stack Developer</title>
     <link rel="stylesheet" href="styles.css">
+    <!--  Favicon - Make sure you have a favicon.ico in your root folder or update path -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="header">
+    <header class="site-header">
         <nav>
-            <a href="#" class="logo">.kRiTaN</a>
+            <a href="#home" class="logo">.kRiTaN</a>
             <div class="nav-links">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
-        <div class="left-sidebar"></div>
-        <div class="row">
-            <div class="left-col">
-                <img src="pp.png">
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content-wrapper">
+            <div class="hero-text">
+                <h1>👋 Hi, I'm Kritan Nepal</h1>
+                <p class="subtitle">A Full Stack Developer with 2+ years of experience, passionate about building robust and scalable web applications.</p>
+                <p>I specialize in crafting seamless user experiences with modern frontend technologies and developing efficient backend systems. My journey in tech is driven by a constant desire to learn, innovate, and solve complex problems.</p>
+                <p>Currently exploring advanced concepts in cloud architectures and microservices to further enhance my development capabilities.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/kritan-nepal-74564322a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <img src="640px-LinkedIn_logo_initials.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/Kritan19" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <img src="download.png" alt="GitHub"> <!-- Assuming 'download.png' is your GitHub Octocat icon -->
+                    </a>
+                    <a href="https://twitter.com/13Kritzz" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <img src="twitter.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCTuHiflSZAZq2ka8DjHoICw" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <img src="youtube.png" alt="YouTube">
+                    </a>
+                    <a href="https://www.instagram.com/nepal_kritan/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <img src="instagram.png" alt="Instagram">
+                    </a>
+                </div>
+                <a href="#projects" class="cta-button">View My Work</a>
             </div>
-            <div class="right-col">
-                <h2>👋Hey there! I'm Kritan Nepal,</h2>
-                <p>a BCA student passionate about technology. Proficient in HTML, CSS, and JavaScript, I specialize in crafting engaging web experiences.<br><br>Eager to expand my skill set, I'm excited about diving into Python programming and mastering Linux systems. I thrive on hands-on learning and am dedicated to sharing my discoveries with others.<br><br>
-                (This is my demo Portfolio website to connect  with me.It is in constrution.)</p>
-                
-                    <div class="social-icon">
-                        <div class="icon">
-                            <img src="640px-LinkedIn_logo_initials.png">
-                            <a href="https://www.linkedin.com/in/kritan-nepal-74564322a/">
-                            <img src="link.png">
-                             </a>
-                        </div>
-                        <div class="icon">
-                            <img src="youtube.png">
-                            <a href="https://www.youtube.com/channel/UCTuHiflSZAZq2ka8DjHoICw">
-                            <img src="link.png">
-                             </a>
-                        </div>
-                        <div class="icon">
-                            <img src="twitter.png">
-                            <a href="https://twitter.com/13Kritzz">
-                            <img src="link.png">
-                             </a>
-                        </div>
-                        <div class="icon">
-                            <img src="download.png">
-                            <a href="https://github.com/Kritan19">
-                            <img src="link.png">
-                             </a>
-                        </div>
-                        <div class="icon">
-                            <img src="instagram.png">
-                            <a href="https://www.instagram.com/nepal_kritan/">
-                            <img src="link.png">
-                             </a>
-                        </div>
-                    </div>
+            <div class="hero-image">
+                <img src="pp.png" alt="Kritan Nepal - Profile Picture">
             </div>
         </div>
-    </div>
+    </section>
+
+    <main>
+        <section id="about" class="about-section content-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm Kritan, a dedicated Full Stack Developer with a solid foundation in Computer Applications and over two years of hands-on experience in the dynamic world of web development. My passion lies in transforming innovative ideas into tangible, high-performance web solutions.
+                </p>
+                <p>
+                    Throughout my career, I've had the opportunity to work on diverse projects, honing my skills in both frontend and backend development. I thrive in collaborative environments, leveraging agile methodologies to deliver efficient and user-centric applications. My expertise spans across the entire development lifecycle, from conceptualization and design to deployment and maintenance.
+                </p>
+                <p>
+                    I'm a firm believer in continuous learning and staying abreast of the latest industry trends. This mindset has enabled me to adapt to new technologies quickly and implement best practices in my work. When I'm not coding, I enjoy exploring new tech, contributing to open-source projects, and sharing my knowledge with the developer community.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section content-section">
+            <div class="container">
+                <h2>My Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend Development</h3>
+                        <ul>
+                            <li>HTML5, CSS3 (Flexbox, Grid, SASS/LESS)</li>
+                            <li>JavaScript (ES6+, TypeScript)</li>
+                            <li>React (Hooks, Context API, Redux)</li>
+                            <li>Vue.js (Vuex, Vue Router) - Familiar</li>
+                            <li>Responsive Web Design & PWAs</li>
+                            <li>Webpack, Babel, Parcel</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend Development</h3>
+                        <ul>
+                            <li>Node.js (Express.js, NestJS - Familiar)</li>
+                            <li>Python (Django, Flask)</li>
+                            <li>RESTful APIs & GraphQL</li>
+                            <li>Microservices Architecture - Learning</li>
+                            <li>Authentication & Authorization (JWT, OAuth)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Databases & Storage</h3>
+                        <ul>
+                            <li>SQL (PostgreSQL, MySQL)</li>
+                            <li>NoSQL (MongoDB, Redis)</li>
+                            <li>ORM/ODM (Sequelize, Mongoose)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>DevOps & Tools</h3>
+                        <ul>
+                            <li>Git & GitHub/GitLab</li>
+                            <li>Docker & Kubernetes - Basic</li>
+                            <li>CI/CD (Jenkins, GitHub Actions) - Familiar</li>
+                            <li>AWS (EC2, S3, Lambda) - Basic Exposure</li>
+                            <li>Linux/Unix Environments</li>
+                            <li>Agile/Scrum Methodologies</li>
+                        </ul>
+                    </div>
+                     <div class="skill-category">
+                        <h3>Testing</h3>
+                        <ul>
+                            <li>Jest, Mocha, Chai</li>
+                            <li>Cypress / Selenium - Basic</li>
+                            <li>Unit, Integration, E2E Testing</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Currently Exploring</h3>
+                        <ul>
+                            <li>Advanced Cloud Native Technologies</li>
+                            <li>Serverless Architectures</li>
+                            <li>WebAssembly (WASM)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section content-section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <p style="text-align: center; max-width: 700px; margin-left: auto; margin-right: auto; margin-bottom: 2rem;">
+                    Here are some of the projects I've worked on. You can add new projects by editing the `projectsData` array in the script at the bottom of this HTML file.
+                </p>
+                <div class="project-grid" id="project-grid-container">
+                    <!-- Projects will be dynamically inserted here by JavaScript -->
+                    <!-- Example structure (for reference, will be generated by JS):
+                    <div class="project-card">
+                        <img src="path/to/project-image1.jpg" alt="Project 1 Screenshot">
+                        <h3>Project Title 1</h3>
+                        <p>Brief description of the project, the problem it solves, and your role.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">View Code</a>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section content-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>I'm always excited to discuss new projects, innovative ideas, or potential collaboration opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                <a href="mailto:kritan.nepal.dev@example.com" class="cta-button">Email Me</a> <!-- UPDATE YOUR EMAIL HERE -->
+                <p style="margin-top: 1.5rem;">You can also find me on the social platforms linked above.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="current-year"></span> Kritan Nepal. All rights reserved.</p>
+        <!-- Optional: You can repeat social links here if desired -->
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Update copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        const navLinkItems = document.querySelectorAll('.nav-links ul li a');
+
+        menuToggle.addEventListener('click', () => {
+            const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true' || false;
+            menuToggle.setAttribute('aria-expanded', !isExpanded);
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when a link is clicked
+        navLinkItems.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinks.classList.contains('active')) {
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                    navLinks.classList.remove('active');
+                }
+            });
+        });
+
+        // --- DYNAMIC PROJECT LOADING ---
+        // To add a new project, simply add a new object to this array.
+        // Make sure image paths are correct. Use a placeholder like "https://via.placeholder.com/400x225.png?text=Project+Image" if you don't have an image yet.
+        const projectsData = [
+            {
+                imgSrc: "https://via.placeholder.com/400x225.png?text=Project+Alpha", // TODO: Replace with your actual project image path
+                title: "Enterprise CRM Platform",
+                description: "Led the development of a scalable CRM solution, enhancing customer engagement and sales pipeline management. Implemented features like contact management, sales automation, and reporting dashboards using React and a Node.js backend with PostgreSQL.",
+                tags: ["React", "Node.js", "Express", "PostgreSQL", "JWT", "REST API", "Material-UI"],
+                liveLink: "#", // TODO: Replace with actual link or remove if not applicable
+                codeLink: "https://github.com/Kritan19/your-project-repo1" // TODO: Replace with actual link
+            },
+            {
+                imgSrc: "https://via.placeholder.com/400x225.png?text=Project+Beta", // TODO: Replace with your actual project image path
+                title: "Real-Time Analytics Dashboard",
+                description: "Built a dynamic analytics dashboard for visualizing key business metrics in real-time. Utilized Python (Flask) for data processing and API endpoints, with a Vue.js frontend for interactive charts and data representation. Integrated WebSocket for live updates.",
+                tags: ["Python", "Flask", "Vue.js", "WebSockets", "Chart.js", "MongoDB", "Data Visualization"],
+                liveLink: "#", // TODO: Replace with actual link
+                codeLink: "https://github.com/Kritan19/your-project-repo2" // TODO: Replace with actual link
+            },
+            {
+                imgSrc: "https://via.placeholder.com/400x225.png?text=Project+Gamma", // TODO: Replace with your actual project image path
+                title: "Full-Stack E-commerce Site",
+                description: "Developed a comprehensive e-commerce website featuring product listings, shopping cart, secure checkout with Stripe integration, and an admin panel for inventory management. Built with Django and React, focusing on performance and user experience.",
+                tags: ["Django", "Python", "React", "Redux", "Stripe API", "PostgreSQL", "E-commerce"],
+                liveLink: "#", // TODO: Replace with actual link
+                codeLink: "https://github.com/Kritan19/your-project-repo3" // TODO: Replace with actual link
+            },
+            // Add more project objects here as needed
+            // Example of a project with no live demo:
+            // {
+            //     imgSrc: "https://via.placeholder.com/400x225.png?text=Internal+Tool",
+            //     title: "Internal DevOps Tool",
+            //     description: "Developed an internal CLI tool using Python to automate deployment processes and manage server configurations, significantly reducing manual effort and deployment times.",
+            //     tags: ["Python", "CLI", "Automation", "DevOps"],
+            //     codeLink: "https://github.com/Kritan19/internal-tool-repo"
+            // }
+        ];
+
+        const projectGridContainer = document.getElementById('project-grid-container');
+
+        function createProjectCard(project) {
+            const card = document.createElement('div');
+            card.className = 'project-card';
+
+            const img = document.createElement('img');
+            img.src = project.imgSrc;
+            img.alt = project.title + " Screenshot";
+
+            const title = document.createElement('h3');
+            title.textContent = project.title;
+
+            const description = document.createElement('p');
+            description.textContent = project.description;
+
+            const tagsContainer = document.createElement('div');
+            tagsContainer.className = 'project-tags';
+            project.tags.forEach(tagText => {
+                const tag = document.createElement('span');
+                tag.textContent = tagText;
+                tagsContainer.appendChild(tag);
+            });
+
+            const linksContainer = document.createElement('div');
+            linksContainer.className = 'project-links';
+
+            if (project.liveLink && project.liveLink !== "#") {
+                const liveLink = document.createElement('a');
+                liveLink.href = project.liveLink;
+                liveLink.target = '_blank';
+                liveLink.rel = 'noopener noreferrer';
+                liveLink.textContent = 'Live Demo';
+                linksContainer.appendChild(liveLink);
+            }
+
+            if (project.codeLink && project.codeLink !== "#") {
+                const codeLink = document.createElement('a');
+                codeLink.href = project.codeLink;
+                codeLink.target = '_blank';
+                codeLink.rel = 'noopener noreferrer';
+                codeLink.textContent = 'View Code';
+                linksContainer.appendChild(codeLink);
+            }
+
+            card.appendChild(img);
+            card.appendChild(title);
+            card.appendChild(description);
+            card.appendChild(tagsContainer);
+            if (linksContainer.hasChildNodes()) {
+                 card.appendChild(linksContainer);
+            }
+
+            return card;
+        }
+
+        projectsData.forEach(project => {
+            const projectCard = createProjectCard(project);
+            projectGridContainer.appendChild(projectCard);
+        });
+
+    </script>
 </body>
 </html>
