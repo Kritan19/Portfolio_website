@@ -216,8 +216,16 @@ img {
 
 /* --- About Section --- */
 .about-section p {
-    max-width: 850px;
-    margin: 0 auto 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section h3 {
+    color: var(--accent-color);
+    text-align: center; 
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* --- Skills Section (The Spellbook) --- */
@@ -310,6 +318,26 @@ img {
     margin-right: 1rem;
     font-weight: 500;
 }
+
+/*contact section*/
+.contact-section {
+    text-align: center; 
+    padding: calc(var(--spacing-unit) * 4) 0;
+}
+
+.contact-section p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: calc(var(--spacing-unit) * 1.5);
+}
+
+/* Ensure the cta-button doesn't have a float or specific margin-left that blocks centering */
+.contact-section .cta-button {
+    display: inline-block; /* Standard for centering with text-align: center */
+    margin: 0 auto;
+}
+
 
 /* --- Footer --- */
 footer {
